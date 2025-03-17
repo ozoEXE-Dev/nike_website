@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section className=" max-container flex flex-col xl:flex-row xl:min-h-screen">
+    <section id="home" className="max-container flex flex-col xl:flex-row xl:min-h-screen">
       <div className=" wide:mt-[160px] pt-30 z-10 xl:max-w-[590px] flex flex-col gap-10 padding-l">
         <div className="text-red font-montserrat text-xl pt">
           Our Summer Collections

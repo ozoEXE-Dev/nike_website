@@ -1,7 +1,7 @@
 import CustomerDetail from "../components/CustomerDetail";
 import { reviews } from "../assets/constants";
 const CustomerReviews = () => (
-  <section className="text-center mt-10 max-container bg-[#F5F6FF] padding-x padding-y flex flex-col items-center justify-center gap-30">
+  <section id="about-us" className="text-center mt-10 max-container bg-[#F5F6FF] padding-x padding-y flex flex-col items-center justify-center gap-30">
     <div className="">
       <h2 className="font-palanquin text-4xl font-bold">
         What Our <span className="text-red">Customers</span> Say?

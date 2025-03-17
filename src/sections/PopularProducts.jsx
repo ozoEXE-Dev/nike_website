@@ -3,7 +3,7 @@ import { BigShoeCard } from "../components";
 import { products } from "../assets/constants";
 
 const PopularProducts = () => (
-  <section className="max-container padding-x mt-30">
+  <section id="products" className="max-container padding-x mt-30">
     <div className="flex flex-col gap-7">
       <h2 className="font-palanquin text-4xl font-bold">
         Our <span className="text-red"> Popular</span> Products

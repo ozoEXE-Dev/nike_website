@@ -11,7 +11,7 @@ const Nav = () => {
         <img src={headerLogo} className="shrink-1" alt="Loog" width={129} height={29} />
         <ul className=" shrink-1 lg:flex hidden justify-between gap-16">
           {navLinks.map((item) => (
-            <li key={item} className="">
+            <li key={item.label} className="">
               {" "}
               <a className="shrink-1 font-montserrat whitespace-nowrap text-lg text-slate-gray" href={item.href}>
                 {item.label}
