@@ -5,7 +5,7 @@ export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
-    { href: "#", label: "Contact Us" },
+    { href: "#contact-us", label: "Contact Us" },
 ];
 
 export const shoes = [
